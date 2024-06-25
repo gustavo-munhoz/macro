@@ -14,7 +14,7 @@ extension String {
     /// keys for localized strings. Each case of the enum holds the key for a string
     /// that corresponds to an entry in the app's localizable strings files.
     enum LocalizedKey: String {
-        case temp = "temporary"
+        case appName = "ProjectumMacrum"
     }
     
     /// Retrieves a localized string using the specified key from the app's localization files.

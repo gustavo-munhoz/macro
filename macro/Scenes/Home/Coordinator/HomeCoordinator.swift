@@ -1,5 +1,5 @@
 //
-//  NavigationCoordinator.swift
+//  HomeCoordinator.swift
 //  macro
 //
 //  Created by Gustavo Munhoz Correa on 24/06/24.
@@ -8,10 +8,10 @@
 import UIKit
 import Combine
 
-/// `NavigationCoordinator` is a coordinator that manages the navigation flow within a specific part
+/// `HomeCoordinator` is a coordinator that manages the navigation flow within a specific part
 /// of the application. It extends `BaseCoordinator` by handling the presentation of specific view controllers
 /// and managing any associated reactive subscriptions.
-class NavigationCoordinator: BaseCoordinator {
+class HomeCoordinator: BaseCoordinator {
     
     /// A set of cancellables to hold any subscriptions created during the navigation process.
     /// This ensures that all subscriptions are retained for the lifetime of the coordinator,
